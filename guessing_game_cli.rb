@@ -7,4 +7,5 @@ def run_guessing_game
     puts "Sorry! The computer guessed #{random}"
   else user_input == "exit"
     puts "goodbye!"
+  end
 end
