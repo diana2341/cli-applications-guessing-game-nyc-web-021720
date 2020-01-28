@@ -8,4 +8,5 @@ def run_guessing_game
   elsif user_input == "exit"
     puts "Goodbye!"
   end
+  user_input
 end
