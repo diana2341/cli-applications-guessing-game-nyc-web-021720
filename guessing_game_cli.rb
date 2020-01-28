@@ -1,4 +1,4 @@
 def run_guessing_game
-  random= rand(6) + 1
- user = gets.chomp
+  user= rand(6) + 1
+  user.gets
 end
