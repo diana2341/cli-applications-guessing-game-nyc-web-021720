@@ -1,3 +1,4 @@
 def run_guessing_game
-  rand(6) + 1
+  random= rand(6) + 1
+  user=random.chomp 
 end
